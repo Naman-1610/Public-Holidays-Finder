@@ -1,42 +1,99 @@
-# Public-Holidays-Finder | API Free | WebAPP
-#### Author: Bocaletto Luca
+# Public Holidays Finder 🌍🎉
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Bootstrap 5](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&style=flat-square)](https://getbootstrap.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Public Holidays Finder](https://img.shields.io/badge/Public%20Holidays%20Finder-v1.0.0-blue)
 
-A free, open-source web application that retrieves public holidays for any country and year by leveraging the [Nager.Date API](https://date.nager.at/). No API keys or registration are required.
+Welcome to the **Public Holidays Finder**! This is a free, open-source web application designed to help you find public holidays for any country and year. It utilizes the Nager.Date API, which means you don’t need any API keys or registration to access the information. 
 
-Un'applicazione web gratuita e open source che recupera i giorni festivi di qualsiasi paese e anno, utilizzando l'[API Nager.Date](https://date.nager.at/). Non sono necessari API key o registrazione.
-
----
-
-## Table of Contents / Indice
+## Table of Contents
 
 - [Features](#features)
-
----
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [How to Use](#how-to-use)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
 ## Features
 
-- **Dynamic Public Holidays Lookup**  
-  Enter a year and a country code (ISO 3166-1 α-2) and fetch the list of public holidays dynamically.  
-  *(Inserisci un anno e un codice paese (ISO 3166-1 α-2) per ottenere dinamicamente la lista dei giorni festivi.)*
+- **Easy Access**: Quickly retrieve public holidays for any country and year.
+- **No Registration Needed**: Use the app without signing up or using API keys.
+- **Responsive Design**: Works seamlessly on mobile and desktop devices.
+- **Open Source**: Contribute to the project and improve it for everyone.
 
-- **Detailed Information**  
-  View key holiday details such as date, local name, English name, types, and more.  
-  *(Visualizza dettagli quali data, nome locale, nome in inglese, tipi e altro.)*
+## Technologies Used
 
-- **Fullscreen Modal for Details**  
-  Click "View Details" to open a fullscreen modal that shows extra details for each holiday plus a dynamic holiday-themed image from loremflickr.  
-  *(Clicca "View Details" per aprire un modal a schermo intero che mostra ulteriori dettagli e un'immagine dinamica a tema festivo.)*
+This application is built using:
 
-- **100% Free & Open Source**  
-  This project uses 100% free APIs and libraries. No registration or API keys required.  
-  *(Il progetto utilizza API e librerie 100% gratuite e open source. Nessuna registrazione o API key necessaria.)*
+- **HTML5**: For structuring the web pages.
+- **CSS3**: For styling the application.
+- **JavaScript**: For handling user interactions and API calls.
+- **Nager.Date API**: To fetch public holiday data.
+- **Open Data**: The application relies on publicly available data.
 
----
+## Getting Started
 
-## Enjoy WebAPP | By Bocaletto Luca
+To get started with the Public Holidays Finder, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Naman-1610/Public-Holidays-Finder.git
+   ```
+
+2. **Navigate to the Directory**:
+   ```bash
+   cd Public-Holidays-Finder
+   ```
+
+3. **Open the Application**:
+   Open `index.html` in your preferred web browser.
+
+## How to Use
+
+1. **Select a Country**: Use the dropdown menu to choose a country.
+2. **Choose a Year**: Enter the year for which you want to find public holidays.
+3. **View Results**: Click the button to retrieve the holidays. The results will display below.
+
+![Usage Example](https://via.placeholder.com/800x400?text=Public+Holidays+Finder+Usage+Example)
+
+## Contributing
+
+We welcome contributions to improve the Public Holidays Finder! If you want to contribute, please follow these steps:
+
+1. **Fork the Repository**: Click on the "Fork" button at the top right of the repository page.
+2. **Create a New Branch**: 
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your feature or fix a bug.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to the Branch**: 
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Create a Pull Request**: Go to the original repository and click on "New Pull Request".
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or suggestions, feel free to reach out:
+
+- **Email**: your.email@example.com
+- **GitHub**: [Naman-1610](https://github.com/Naman-1610)
+
+## Releases
+
+To download the latest version of the Public Holidays Finder, visit the [Releases](https://github.com/Naman-1610/Public-Holidays-Finder/releases) section. You can find the latest files to download and execute the application.
+
+## Conclusion
+
+Thank you for checking out the Public Holidays Finder! We hope this application serves you well in finding public holidays easily. Your feedback and contributions are always welcome. 
+
+Explore the features and enjoy using the app!
